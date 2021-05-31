@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="411dp"
+            android:layout_height="1368dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="-1dp"
+            android:layout_marginTop="-13dp"
+            app:srcCompat="@android:color/holo_blue_light" />
+
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="666dp"
+            android:text="5.Ketika melihat hasil analisa tunggu sampai informasi yang ada keluar dahulu setelah itu lakukan analisa dengan menekan button analisa" />
+
+        <ImageView
+            android:id="@+id/imageView21"
+            android:layout_width="411dp"
+            android:layout_height="1368dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="79dp"
+            android:layout_marginTop="-663dp"
+            app:srcCompat="@android:color/holo_blue_light" />
+
+        <ImageView
+            android:id="@+id/imageView13"
+            android:layout_width="match_parent"
+            android:layout_height="169dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="-1dp"
+            android:layout_marginTop="-1dp"
+            app:srcCompat="@android:color/background_light" />
+
+        <ImageView
+            android:id="@+id/imageView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="38dp"
+            app:srcCompat="@drawable/logolaun" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="168dp"
+            android:layout_marginEnd="82dp"
+            android:text="Selamat Datang Di Menu Bantuan" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="269dp"
+            android:text="1. Silahkan melakukan pengisian kuisioner pada menu Performance, Information, Economy, Control, Eficiency, dan Servis pada halaman utama" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="340dp"
+            android:text="2. Pada saat melakukan pengisian kuisioner di masing-masing proses penganalisa harus menginputkan NIDN atau NPM  setelah itu cek skor di button skor dan penganalisa harus menyimpan skor yang penganalisa beri di button simpan" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="430dp"
+            android:text="3.Penganalisa dapat melihat hasil analisa pada icon di bawah ini :" />
+
+        <ImageView
+            android:id="@+id/imageView15"
+            android:layout_width="110dp"
+            android:layout_height="55dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="478dp"
+            app:srcCompat="@drawable/buttonp" />
+
+        <ImageView
+            android:id="@+id/imageView18"
+            android:layout_width="110dp"
+            android:layout_height="55dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="543dp"
+            app:srcCompat="@drawable/buttonc" />
+
+        <ImageView
+            android:id="@+id/imageView16"
+            android:layout_width="110dp"
+            android:layout_height="55dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="145dp"
+            android:layout_marginTop="478dp"
+            app:srcCompat="@drawable/buttonii" />
+
+        <ImageView
+            android:id="@+id/imageView19"
+            android:layout_width="110dp"
+            android:layout_height="55dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="145dp"
+            android:layout_marginTop="542dp"
+            app:srcCompat="@drawable/logocc" />
+
+        <ImageView
+            android:id="@+id/imageView20"
+            android:layout_width="110dp"
+            android:layout_height="55dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="259dp"
+            android:layout_marginTop="543dp"
+            app:srcCompat="@drawable/logoss" />
+
+        <ImageView
+            android:id="@+id/imageView17"
+            android:layout_width="110dp"
+            android:layout_height="55dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="259dp"
+            android:layout_marginTop="478dp"
+            app:srcCompat="@drawable/buttone" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="737dp"
+            android:text="6. Setelah melakukan analisa tekan button simpan untuk menyimpan hasil analisa seperti gambar dibawah ini:" />
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="1071dp"
+            android:text="7. Hubungi admin untuk mencetak hasil laporan analisa di : saputratriandri290@gmail.com atau wa: 081265133973" />
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="666dp"
+            android:text="5.Ketika melihat hasil analisa tunggu sampai informasi yang ada keluar dahulu setelah itu lakukan analisa dengan menekan button analisa" />
+
+        <ImageView
+            android:id="@+id/imageView23"
+            android:layout_width="149dp"
+            android:layout_height="257dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="773dp"
+            app:srcCompat="@drawable/screen" />
+
+
+    </RelativeLayout>
+</ScrollView>

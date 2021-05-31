@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtperformance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="191dp"
+        android:backgroundTint="@android:color/background_light"
+        android:text="Performance"
+        android:textColor="@android:color/holo_blue_dark" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        app:srcCompat="@android:color/holo_blue_dark" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="349dp"
+        android:layout_height="134dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="12dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/analisis" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="341dp"
+        android:layout_height="73dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="176dp"
+        app:srcCompat="@android:color/background_light" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="340dp"
+        android:layout_height="283dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="275dp"
+        app:srcCompat="@android:color/background_light" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="175dp"
+        android:backgroundTint="@android:color/background_light"
+        android:text="Quistioner"
+        android:textColor="@android:color/darker_gray" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="277dp"
+        android:backgroundTint="@android:color/background_light"
+        android:text="Result"
+        android:textColor="@android:color/darker_gray" />
+
+    <TextView
+        android:id="@+id/txtekonomi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="128dp"
+        android:layout_marginTop="191dp"
+        android:backgroundTint="@android:color/background_light"
+        android:text="Economy"
+        android:textColor="@android:color/holo_blue_dark" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="262dp"
+        android:layout_marginTop="365dp"
+        android:backgroundTint="@android:color/background_light"
+        android:text="Economy"
+        android:textColor="@android:color/holo_blue_dark" />
+
+    <TextView
+        android:id="@+id/txtefisien"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="216dp"
+        android:layout_marginTop="191dp"
+        android:backgroundTint="@android:color/background_light"
+        android:text="Eficiency"
+        android:textColor="@android:color/holo_blue_dark" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="154dp"
+        android:layout_marginTop="472dp"
+        android:backgroundTint="@android:color/background_light"
+        android:text="Eficiency"
+        android:textColor="@android:color/holo_blue_dark" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="197dp"
+        android:layout_marginTop="191dp"
+        android:backgroundTint="@android:color/background_light"
+        android:textColor="@android:color/holo_blue_dark" />
+
+    <TextView
+        android:id="@+id/txtcontrol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="128dp"
+        android:layout_marginTop="222dp"
+        android:backgroundTint="@android:color/background_light"
+        android:text="Control"
+        android:textColor="@android:color/holo_blue_dark" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="471dp"
+        android:backgroundTint="@android:color/background_light"
+        android:text="Control"
+        android:textColor="@android:color/holo_blue_dark" />
+
+    <TextView
+        android:id="@+id/txtservice"
+        android:layout_width="62dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="215dp"
+        android:layout_marginTop="221dp"
+        android:backgroundTint="@android:color/background_light"
+        android:text="Service"
+        android:textColor="@android:color/holo_blue_dark" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="62dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="264dp"
+        android:layout_marginTop="470dp"
+        android:backgroundTint="@android:color/background_light"
+        android:text="Service"
+        android:textColor="@android:color/holo_blue_dark" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="191dp"
+        android:backgroundTint="@android:color/background_light"
+        android:text="Performance"
+        android:textColor="@android:color/holo_blue_dark" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="365dp"
+        android:backgroundTint="@android:color/background_light"
+        android:text="Performance"
+        android:textColor="@android:color/holo_blue_dark" />
+
+    <TextView
+        android:id="@+id/txtinformasi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="220dp"
+        android:backgroundTint="@android:color/background_light"
+        android:text="Information"
+        android:textColor="@android:color/holo_blue_dark" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="145dp"
+        android:layout_marginTop="363dp"
+        android:backgroundTint="@android:color/background_light"
+        android:text="Information"
+        android:textColor="@android:color/holo_blue_dark" />
+
+    <TextView
+        android:id="@+id/txtdetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="518dp"
+        android:backgroundTint="@android:color/background_light"
+        android:text="=DETAIL HASIL="
+        android:textColor="@android:color/holo_blue_dark" />
+
+    <ImageButton
+        android:id="@+id/btnresult_control"
+        android:layout_width="83dp"
+        android:layout_height="69dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="401dp"
+        android:backgroundTint="@android:color/background_light"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/logocc" />
+
+    <ImageButton
+        android:id="@+id/btnresult_performa"
+        android:layout_width="83dp"
+        android:layout_height="69dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="295dp"
+        android:backgroundTint="@android:color/background_light"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/buttonp" />
+
+    <ImageButton
+        android:id="@+id/btnresult_informasi"
+        android:layout_width="83dp"
+        android:layout_height="69dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="142dp"
+        android:layout_marginTop="295dp"
+        android:backgroundTint="@android:color/background_light"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/buttonii" />
+
+    <ImageButton
+        android:id="@+id/btnresult_servis"
+        android:layout_width="83dp"
+        android:layout_height="69dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="250dp"
+        android:layout_marginTop="401dp"
+        android:backgroundTint="@android:color/background_light"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/logoss" />
+
+    <ImageButton
+        android:id="@+id/btnresult_ekonomi"
+        android:layout_width="83dp"
+        android:layout_height="69dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="250dp"
+        android:layout_marginTop="296dp"
+        android:backgroundTint="@android:color/background_light"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/buttone" />
+
+    <ImageButton
+        android:id="@+id/btnresult_efisien"
+        android:layout_width="83dp"
+        android:layout_height="69dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="141dp"
+        android:layout_marginTop="401dp"
+        android:backgroundTint="@android:color/background_light"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/buttone" />
+
+    <ImageButton
+        android:id="@+id/btnhelp"
+        android:layout_width="58dp"
+        android:layout_height="38dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="173dp"
+        android:layout_marginEnd="14dp"
+        android:backgroundTint="@color/cardview_light_background"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/help" />
+
+    <TextView
+        android:id="@+id/txtid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="124dp"
+        android:backgroundTint="@android:color/background_light"
+        android:text="Welcome"
+        android:textColor="@android:color/holo_blue_dark" />
+
+
+</RelativeLayout>

@@ -1,0 +1,610 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="411dp"
+            android:layout_height="1368dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="-1dp"
+            android:layout_marginTop="-4dp"
+            app:srcCompat="@android:color/holo_blue_light" />
+
+
+        <RadioGroup
+            android:id="@+id/rg1"
+            android:layout_width="179dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="17dp"
+            android:layout_marginTop="1119dp">
+
+            <RadioButton
+                android:id="@+id/rbss"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="Sangat Setuju"
+                android:textColor="#000" />
+
+            <RadioButton
+                android:id="@+id/rbs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Setuju"
+                android:textColor="#000" />
+
+            <RadioButton
+                android:id="@+id/rbcs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cukup Setuju"
+                android:textColor="#000" />
+
+            <RadioButton
+                android:id="@+id/rbts"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tidak Setuju"
+                android:textColor="#000" />
+
+            <RadioButton
+                android:id="@+id/rbsts"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sangat Tidak Setuju"
+                android:textColor="#000" />
+
+
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/rg5"
+            android:layout_width="179dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="884dp">
+
+            <RadioButton
+                android:id="@+id/rbss5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="Sangat Setuju"
+                android:textColor="#000" />
+
+            <RadioButton
+                android:id="@+id/rbs5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Setuju"
+                android:textColor="#000" />
+
+            <RadioButton
+                android:id="@+id/rbcs5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cukup Setuju"
+                android:textColor="#000" />
+
+            <RadioButton
+                android:id="@+id/rbts5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tidak Setuju"
+                android:textColor="#000" />
+
+            <RadioButton
+                android:id="@+id/rbsts5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sangat Tidak Setuju"
+                android:textColor="#000" />
+
+
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/rg4"
+            android:layout_width="179dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="27dp"
+            android:layout_marginTop="672dp">
+
+            <RadioButton
+                android:id="@+id/rbss4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="Sangat Setuju"
+                android:textColor="#000" />
+
+            <RadioButton
+                android:id="@+id/rbs4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Setuju"
+                android:textColor="#000" />
+
+            <RadioButton
+                android:id="@+id/rbcs4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cukup Setuju"
+                android:textColor="#000" />
+
+            <RadioButton
+                android:id="@+id/rbts4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tidak Setuju"
+                android:textColor="#000" />
+
+            <RadioButton
+                android:id="@+id/rbsts4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sangat Tidak Setuju"
+                android:textColor="#000" />
+
+
+        </RadioGroup>
+
+
+        <TextView
+            android:id="@+id/txttotal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="center"
+            android:layout_marginStart="89dp"
+            android:layout_marginTop="1283dp"
+            android:backgroundTint="@android:color/darker_gray"
+            android:fontFamily="sans-serif"
+            android:text="Total Score "
+            android:textColor="#FFF"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/txtscore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="center"
+            android:layout_marginStart="248dp"
+            android:layout_marginTop="1191dp"
+            android:backgroundTint="@android:color/darker_gray"
+            android:fontFamily="sans-serif"
+            android:text="-"
+            android:textColor="#FFF"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/txtscore2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="center"
+            android:layout_marginStart="249dp"
+            android:layout_marginTop="316dp"
+            android:backgroundTint="@android:color/darker_gray"
+            android:fontFamily="sans-serif"
+            android:text="-"
+            android:textColor="#FFF"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/txtscore3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="center"
+            android:layout_marginStart="249dp"
+            android:layout_marginTop="521dp"
+            android:backgroundTint="@android:color/darker_gray"
+            android:fontFamily="sans-serif"
+            android:text="-"
+            android:textColor="#FFF"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/txtscore4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="center"
+            android:layout_marginStart="249dp"
+            android:layout_marginTop="744dp"
+            android:backgroundTint="@android:color/darker_gray"
+            android:fontFamily="sans-serif"
+            android:text="-"
+            android:textColor="#FFF"
+            android:textSize="14sp" />
+
+
+        <TextView
+            android:id="@+id/txtscore5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="center"
+            android:layout_marginStart="249dp"
+            android:layout_marginTop="955dp"
+            android:backgroundTint="@android:color/darker_gray"
+            android:fontFamily="sans-serif"
+            android:text="-"
+            android:textColor="#FFF"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/btnsimpan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="266dp"
+            android:layout_marginBottom="0dp"
+            android:text="SIMPAN" />
+
+        <Button
+            android:id="@+id/btncek"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="165dp"
+            android:layout_marginBottom="3dp"
+            android:text="CEK SCORE" />
+
+        <RadioGroup
+            android:id="@+id/rg3"
+            android:layout_width="179dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="450dp">
+
+            <RadioButton
+                android:id="@+id/rbss3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="Sangat Setuju"
+                android:textColor="#000" />
+
+            <RadioButton
+                android:id="@+id/rbs3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Setuju"
+                android:textColor="#000" />
+
+            <RadioButton
+                android:id="@+id/rbcs3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cukup Setuju"
+                android:textColor="#000" />
+
+            <RadioButton
+                android:id="@+id/rbts3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tidak Setuju"
+                android:textColor="#000" />
+
+            <RadioButton
+                android:id="@+id/rbsts3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sangat Tidak Setuju"
+                android:textColor="#000" />
+
+
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/rg2"
+            android:layout_width="179dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="244dp">
+
+            <RadioButton
+                android:id="@+id/rbss2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="Sangat Setuju"
+                android:textColor="#000" />
+
+            <RadioButton
+                android:id="@+id/rbs2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Setuju"
+                android:textColor="#000" />
+
+            <RadioButton
+                android:id="@+id/rbcs2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cukup Setuju"
+                android:textColor="#000" />
+
+            <RadioButton
+                android:id="@+id/rbts2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tidak Setuju"
+                android:textColor="#000" />
+
+            <RadioButton
+                android:id="@+id/rbsts2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sangat Tidak Setuju"
+                android:textColor="#000" />
+
+        </RadioGroup>
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="184dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/control" />
+
+        <TextView
+            android:id="@+id/txtid_kuisioner"
+            android:layout_width="411dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="-1dp"
+            android:layout_marginTop="186dp"
+            android:text="id_kusioner"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/txtkuisioner"
+            android:layout_width="398dp"
+            android:layout_height="60dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="11dp"
+            android:layout_marginTop="185dp"
+            android:text="kuisioner"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/txtid_kuisioner2"
+            android:layout_width="411dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="-1dp"
+            android:layout_marginTop="425dp"
+            android:text="id_kusioner2"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/txtkuisioner2"
+            android:layout_width="398dp"
+            android:layout_height="60dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="11dp"
+            android:layout_marginTop="425dp"
+            android:text="kuisioner2"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/txtid_kuisioner3"
+            android:layout_width="411dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="-1dp"
+            android:layout_marginTop="633dp"
+            android:text="id_kusioner3"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/txtkuisioner3"
+            android:layout_width="398dp"
+            android:layout_height="60dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="633dp"
+            android:text="kuisioner3"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+
+        <TextView
+            android:id="@+id/txtid_kuisioner4"
+            android:layout_width="411dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="852dp"
+            android:text="id_kusioner4"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/txtkuisioner4"
+            android:layout_width="398dp"
+            android:layout_height="60dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="853dp"
+            android:text="kuisioner4"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/txtid_kuisioner5"
+            android:layout_width="411dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="1080dp"
+            android:text="id_kusioner5"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/txtkuisioner5"
+            android:layout_width="398dp"
+            android:layout_height="60dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="11dp"
+            android:layout_marginTop="1081dp"
+            android:text="kuisioner5"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/txtid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="240dp"
+            android:layout_marginEnd="114dp"
+            android:text="id" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="218dp"
+            android:layout_marginTop="316dp"
+            android:text="Skor" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="219dp"
+            android:layout_marginTop="520dp"
+            android:text="Skor" />
+
+        <TextView
+            android:id="@+id/textView42"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="220dp"
+            android:layout_marginTop="743dp"
+            android:text="Skor" />
+
+        <TextView
+            android:id="@+id/textView43"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="219dp"
+            android:layout_marginTop="955dp"
+            android:text="Skor" />
+
+        <TextView
+            android:id="@+id/textView44"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="215dp"
+            android:layout_marginTop="1192dp"
+            android:text="Skor" />
+
+        <TextView
+            android:id="@+id/textView47"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="17dp"
+            android:layout_marginTop="1284dp"
+            android:text="All Skor" />
+
+        <TextView
+            android:id="@+id/textView48"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="1303dp"
+            android:text="Kepuasan:" />
+
+        <TextView
+            android:id="@+id/txtstatusControl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="68dp"
+            android:layout_marginTop="1303dp"
+            android:text="All Skor" />
+
+
+    </RelativeLayout>
+
+</ScrollView>
